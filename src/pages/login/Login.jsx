@@ -60,7 +60,7 @@ const Login = () => {
             <button className={styles.submitButton} onClick={loginUser}>Login</button>
             
             <Link to="/signup">
-                <p className={styles.link}>Don't Have An Account?Signup now!</p>
+                <p className={styles.link}>You Don't Have An Account?Signup now!</p>
             </Link> 
             </div>     
     </div>
