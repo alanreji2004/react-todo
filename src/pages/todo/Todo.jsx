@@ -108,7 +108,7 @@ const Todo = () => {
                   onClick={() => deleteTodo(todo.id)}
                   className={styles.deleteTodo}
                 >
-                  Delete
+                  Delete todo
                 </button>
               </div>
             ))}
