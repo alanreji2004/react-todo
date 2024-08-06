@@ -117,8 +117,8 @@ const Todo = () => {
       <button
         className={styles.logoutButton}
         onClick={() => {
-          localStorage.removeItem('loggedInUser');
-          navigate('/login');
+          localStorage.removeItem('LoggedInUser_happy?');
+          navigate('/Login');
         }}
       >
         Logout
