@@ -74,7 +74,7 @@ const Signup = () => {
             <button className={styles.submitButton} onClick={storeData}>Signup</button>
             
             <Link to="/login">
-                <p className={styles.link}>Already have an account?Login now!</p>
+                <p className={styles.link}>Already have an account!?Login now!</p>
             </Link> 
             </div>     
     </div>
