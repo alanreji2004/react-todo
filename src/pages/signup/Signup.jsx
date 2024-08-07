@@ -65,7 +65,7 @@ const Signup = () => {
             <input 
             type="password" 
             required
-            placeholder="Enter Your Password"
+            placeholder="Enter Your Password!!..."
             onChange={(e)=>{
                 setUserData({...userData,password : e.target.value})
             }}
